@@ -6,7 +6,7 @@ import sys
 
 # Put text of each page into a dictionary with the key as the page number
 def textify(pdfName):
-    reader = PdfReader('raheeq.pdf')
+    reader = PdfReader(pdfName)
 
     book = dict()
     pageNum = 0
