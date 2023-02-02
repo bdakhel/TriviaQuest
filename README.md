@@ -11,11 +11,11 @@ To generate an OpenAI API key, you will need to sign up for an OpenAI account. O
 - PyPDF library (pip install PyPDF2)
 - OpenAI python library (pip install openai)
 # Usage
--Clone the repository by running ```git clone https://github.com/bdakhel/TriviaQuest.git``` in the terminal.
--Navigate to the directory where the script is saved using ```cd TriviaQuest```
--Run the script by providing the path to the PDF file as the first argument and your OpenAI API key as the second argument. For example: 
-```python TriviaQuest.py ~/path/to/pdf key.```
--The generated questions and answers will be saved in a text file called "qanda.txt".
+- Clone the repository by running ```git clone https://github.com/bdakhel/TriviaQuest.git``` in the terminal.
+- Navigate to the directory where the script is saved using ```cd TriviaQuest```
+- Run the script by providing the path to the PDF file as the first argument and your OpenAI API key as the second argument. For example: 
+```python TriviaQuest.py ~/path/to/pdf key```
+- The generated questions and answers will be saved in a text file called "qanda.txt".
 # Note
 To avoid breaching the API limit, the script waits 3 seconds between making API requests. This means that for large PDF's it the program will run for approximatly 3 seconds per page. This may cause long run times.
 
